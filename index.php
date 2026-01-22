@@ -34,12 +34,17 @@ if(isset($_POST['login'])){
 
 <style>
 body{
-  background: linear-gradient(135deg,#1e293b,#0f172a);
+      background-image: url("emyu.jpg");
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
   align-items: center;
 }
 .login-card{
+
+
   max-width: 420px;
   width: 100%;
 }
