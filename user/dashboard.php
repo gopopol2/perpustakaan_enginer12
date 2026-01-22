@@ -40,7 +40,7 @@ $jml_kembali = mysqli_num_rows(mysqli_query($conn,"
   </div>
 
   <div class="alert alert-primary mt-4">
-    Selamat datang di aplikasi <b>Perpustakaan Sekolah</b>.  
+    yo, di aplikasi <b>Perpustakaan Sekolah</b>.  
     Silakan melakukan peminjaman atau pengembalian buku melalui menu di atas.
   </div>
 </div>

@@ -36,6 +36,17 @@ CREATE TABLE `buku` (
   `stok` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+
+INSERT INTO `buku` (`id_buku`, `judul`, `pengarang`, `penerbit`, `tahun`, `stok`) VALUES
+(1, '19 juta lapangan pekerjaan', 'gibran', 'fufufafa', '2025', 2),
+(2, 'sawit', 'idan', 'walid', '2017', 7),
+(3, 'walid CEO', 'idan', 'idan', '2025', 6),
+(4, 'WAMID PENAKLUK NAGA KEPALA 3', 'WALID', 'WALID', '2025', 1),
+(5, 'WALID PEMINJAM DUIT', 'WALID', 'WALID', '2026', 6),
+(6, 'MBG [MAKANAN BERGIZI GRATIS] KATANYA', 'WALID', 'ARIL', NULL, 7),
+(7, 'SAMSUDIN ROKO SAMSU', 'ACU', 'ACU', '2025', 2);
+
 -- --------------------------------------------------------
 
 --
